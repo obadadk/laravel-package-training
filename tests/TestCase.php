@@ -3,8 +3,8 @@
 namespace Obadadk\LaravelPackageTraining\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Obadadk\LaravelPackageTraining\LaravelPackageTrainingServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

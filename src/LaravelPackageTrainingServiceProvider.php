@@ -2,9 +2,9 @@
 
 namespace Obadadk\LaravelPackageTraining;
 
+use Obadadk\LaravelPackageTraining\Commands\LaravelPackageTrainingCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Obadadk\LaravelPackageTraining\Commands\LaravelPackageTrainingCommand;
 
 class LaravelPackageTrainingServiceProvider extends PackageServiceProvider
 {
