@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "obadadk/laravel-package-training",
+    "description": "This is my package laravel-package-training",
     "keywords": [
-        ":vendor_name",
+        "obadadk",
         "laravel",
-        ":package_slug"
+        "laravel-package-training"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/obadadk/laravel-package-training",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abu Sarya",
+            "email": "abukarmo194@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Obadadk\\LaravelPackageTraining\\": "src",
+            "Obadadk\\LaravelPackageTraining\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Obadadk\\LaravelPackageTraining\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Obadadk\\LaravelPackageTraining\\LaravelPackageTrainingServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelPackageTraining": "Obadadk\\LaravelPackageTraining\\Facades\\LaravelPackageTraining"
             }
         }
     },
